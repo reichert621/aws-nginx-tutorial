@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-18-220-225-49.us-east-2.compute.amazonaws.com',
+      host: 'ec2-52-15-89-155.us-east-2.compute.amazonaws.com',
       key: '~/.ssh/tutorial.pem',
       ref: 'origin/master',
       repo: 'https://github.com/reichert621/aws-nginx-tutorial.git',
